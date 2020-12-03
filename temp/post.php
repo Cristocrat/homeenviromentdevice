@@ -1,7 +1,7 @@
 <?php
-$time - time();
+$time = time();
 $tempF = $_POST["temp"];
 $file = 'temp.html';
-$data = $time." - ".$tempF;
+$data = $time."  -  ".$tempF;
 file_put_contents($file, $data);
 ?>
